@@ -17,7 +17,8 @@
 ;; not operator
 ; TRUE -> FALSE
 ; FALSE -> TRUE
-(defn NOT [x] (x FALSE TRUE))
+(defn NOT [x] 
+  (x FALSE TRUE))
 
 
 ;; and operator
